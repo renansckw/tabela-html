@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <!-- css interno -->
+    <style>
+        /* fundo e fonte da página */
+        body {
+            background-color: whitesmoke;
+            font-family: Arial, sans-serif;
+        }
+
+        /* título principal centralizado */
+        h1 {
+            color: darkgreen;
+            text-align: center;
+        }
+
+        /* configuração das duas tabelas */
+        table {
+            width: 90%;
+            margin: 30px auto;
+            border-collapse: collapse;
+        }
+
+        /* título de cada tabela */
+        caption {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* bordas, espaçamento e alinhamento das células */
+        th, td {
+            border: 1px solid gray;
+            padding: 10px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        /* tabela 1 (id): cabeçalho laranja com texto branco */
+        #rotina th {
+            background-color: orange;
+            color: white;
+        }
+
+        /* tabela 1: células brancas */
+        #rotina td {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- tabela 1: rotina semanal -->
+    <table id="rotina">
+        <caption>Minha rotina semanal</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th>DOM</th>
+                <th>SEG</th>
+                <th>TER</th>
+                <th>QUA</th>
+                <th>QUI</th>
+                <th>SEX</th>
+                <th>SAB</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>MANHÃ</th>
+                <td>Folga</td>
+                <td>Trabalho das 08 até as 18h</td>
+                <td>Trabalho das 08 até as 18h</td>
+                <td>Trabalho das 08 até as 18h</td>
+                <td>Trabalho das 08 até as 18h</td>
+                <td>Trabalho das 08 até as 18h</td>
+                <td>Trabalho das 08 até as 18h</td>
+            </tr>
+            <tr>
+                <th>TARDE</th>
+                <td>Folga</td>
+                <td>Trabalho das 08 até as 18h</td>
+                <td>Trabalho das 08 até as 18h</td>
+                <td>Trabalho das 08 até as 18h</td>
+                <td>Trabalho das 08 até as 18h</td>
+                <td>Trabalho das 08 até as 18h</td>
+                <td>Folga</td>
+            </tr>
+            <tr>
+                <th>NOITE</th>
+                <td>Folga</td>
+                <td>Faculdade 19 até as 22h15 </td>
+                <td>Faculdade 19 até as 22h15 </td>
+                <td>Faculdade 19 até as 22h15 </td>
+                <td>Faculdade 19 até as 22h15 </td>
+                <td>Faculdade 19 até as 22h15 </td>
+                <td>Folga</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
